@@ -1,0 +1,20 @@
+{	
+	"defaultCharacters": [
+	{
+		"name": "Luke Skywalker",
+		"image": "public/img/home_luke.jpg"
+	},
+	{
+		"name": "Yoda",
+		"image": "public/img/home_yoda.jpg"
+	},
+	{
+		"name": "Anakin Skywalker",
+		"image": "public/img/home_darth.jpg"
+	},
+	{
+		"name": "Kylo Ren",
+		"image": "public/img/home_kylo.jpg"
+	}
+	]
+}

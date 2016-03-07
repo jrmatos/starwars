@@ -1,0 +1,44 @@
+{
+	"characters": [
+		{
+			"name": "Luke Skywalker",
+			"image": "public/img/luke_skywalker.jpg"
+		},
+		{
+			"name": "Darth Vader",
+			"image": "public/img/darth_vader.jpg"
+		},
+		{
+			"name": "Yoda",
+			"image": "public/img/yoda.jpg"
+		},
+		{
+			"name": "Obi-Wan Kenobi",
+			"image": "public/img/obi-wan_kenobi.jpg"
+		},
+		{
+			"name": "Han Solo",
+			"image": "public/img/han_solo.jpg"
+		},
+		{
+			"name": "Princess Leia",
+			"image": "public/img/princess_leia.jpg"
+		},
+		{
+			"name": "Chewbacca",
+			"image": "public/img/chewbacca.jpg"
+		}
+		{
+			"name": "R2-D2",
+			"image": "public/img/r2_d2.jpg"
+		},
+		{
+			"name": "C-3PO",
+			"image": "public/img/c_3po.jpg"
+		},
+		{
+			"name": "The Emperor",
+			"image": "public/img/the_emperor.jpg"
+		}
+	]
+}

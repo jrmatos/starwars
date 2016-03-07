@@ -1,0 +1,34 @@
+body{
+	background-image: url('../../public/img/bg_deathstar.jpg');
+	color: #FFE81F;
+	text-align: center;							
+}
+a{
+	color: #FFE81F;
+	font-weight: bold;
+}
+ul{
+	list-style: none;
+	padding: 0;
+}
+.left-100{
+	float: left;
+	width: 100%;
+}
+header .logo{
+	width: 500px;
+}
+header nav ul{				
+	font-size: 20px;			
+}
+header nav ul li a{ 
+	text-decoration: none;
+}
+.ul-default li{
+	display: inline-block;
+	margin: 0 10px;
+}
+.ul-default li img{
+	max-width: 200px;
+	height: 160px;
+}
