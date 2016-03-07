@@ -1,3 +1,3 @@
 angular.module('starwars').value('config', {
-	baseUrl: 'localhost/star_wars'
+	baseUrl: 'http://localhost/star_wars'
 });
