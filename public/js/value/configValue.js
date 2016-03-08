@@ -1,3 +1,3 @@
-angular.module('starwars').value('config', {
-	baseUrl: 'http://localhost/star_wars'
+angular.module('starwars').value('configValue', {
+	baseUrl: 'http://swapi.co/api'
 });

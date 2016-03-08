@@ -6,19 +6,15 @@ angular.module('starwars').
 			templateUrl: 'public/partials/default.html',
 			controller: 'mainCtrl'
 		}).
-		// characters - PLURAL
-		when('/characters', {
-			templateUrl: 'public/partials/characters.html',
-			controller: 'charactersCtrl',
+		// people - PLURAL
+		when('/people', {
+			templateUrl: 'public/partials/people.html',
+			controller: 'peopleCtrl',
 			resolve: {
-				characters: ['characterAPI', function (characterAPI) {					
-					return characterAPI.getCharacters();
+				people: ['peopleAPI', function (peopleAPI) {									
+					return peopleAPI.findPeople();
 				}]	
 			}
-		}).
-		when('/lightsabers', {
-			templateUrl: 'public/partials/lightsabers.html',
-			controller: 'mainCtrl'
 		}).
 		otherwise({
 			redirectTo: '/'

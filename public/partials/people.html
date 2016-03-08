@@ -1,0 +1,19 @@
+<div class="left-100">
+	<div class="container">
+		<input  class="filter" type="text" ng-model="filter" placeholder="filter..."/>
+		<ul class="left-100">
+			<li ng-repeat="person in people | filter: filter">
+				<a href="javascript:;" ng-click="togglePeople(person)">{{person.name}}</a>				
+				<ul ng-if="person.opened">
+					<li>Gender: {{person.gender}}</li>
+					<li>Birth Year: {{person.birth_year}}</li>
+					<li>Eye color: {{person.eye_color}}</li>
+					<li>Hair color: {{person.hair_color}}</li>
+					<li>Skyin color: {{person.skin_color}}</li>
+					<li>Height: {{person.height}}</li>			
+				</ul>
+			</li>
+		</ul>	
+		<button class="btn" type="button" ng-click="loadMore()" ng-show="page < amountPages">load more</button>
+	</div>	
+</div>
