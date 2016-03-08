@@ -36,6 +36,13 @@ ul{
 	border-radius: 3px;
 	background: #000;
 	color: #FFE81F;
+	cursor: pointer;
+}
+.btn:hover{
+	background: #;
+	border: 1px solid #000;
+	color: #000;
+	background: #FFE81F;
 }
 header .logo{
 	width: 500px;
